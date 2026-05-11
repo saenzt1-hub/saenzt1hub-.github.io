@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Hybrid App Technologies</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="header">
+    <h1>Hybrid Mobile App Technologies</h1>
+    <p>Flutter vs Reacy Native vs Ionic - Decision Report for Development Teams</p>
+</header>
+
+<nav class="nav">
+    <a href="#comparison">Comparison</a>
+    <a href="#details">Details</a>
+    <a href="#recommendation">Recommendation</a>
+    <a href="#references">References</a>
+</nav>
+
+<main id="main">
+<section id="comparison" class="card">
+    <h2>Quick Comparison Overview</h2>
+
+    <div class="table-wrapper">
+        <table>
+            <thead>
+                <tr>
+                    <th>Feature</th>
+                    <th>Flutter</th>
+                    <th>React Native</th>
+                    <th>Ionic</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Language</td>
+                    <td>Dart</td>
+                    <td>JavaScript / TypeScript</td>
+                    <td>HTML, CSS, JS</td>
+                </tr>
+                <tr>
+                    <td>Performance</td>
+                    <td>Near-native (high)</td>
+                    <td>Native bridge (high-medium)</td>
+                    <td>Webview (medium)</td>
+                </tr>
+                <tr>
+                    <td>UI Rendering</td>
+                    <td>Own rendering engine</td>
+                    <td>Native components</td>
+                    <td>Web-based UI</td>
+                </tr>
+                <tr>
+                    <td>Learning Curve</td>
+                    <td>Medium</td>
+                    <td>Easy for JS devs</td>
+                    <td>Very easy (web devs)</td>
+                </tr>
+                <tr>
+                    <td>Best For</td>
+                    <td>High-performance apps</td>
+                    <td>Large scale mobile apps</td>
+                    <td>Fast prototypes, web apps</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<section id="details" class="grid">
+
+    <article class="card">
+        <h2>Flutter</h2>
+        <p>
+            Flutter is a UI toolkit developed by Google. It uses the Dart language and complies directly to native ARM.
+            It is known for high performance and consistent UI across platforms.
+        </p>
+        <ul>
+            <li>Strong performance close to native apps</li>
+            <li>Rich UI widgets and customization</li>
+            <li>Single codebase for mobile, web, and desktop</li>
+        </ul>
+    </article>
+    <article class="card">
+        <h2>React Native</h2>
+        <p>
+            React Native, maintained by Meta, allows developers to build mobile apps using JavaScript and React.
+            It uses native components instead of web views.
+        </p>
+        <ul>
+            <li>Large ecosystem and community support</li>
+            <li>Reusable JavaScript knowledge</li>
+            <li>Good balance between performance and productivity</li>
+        </ul>
+    </article>
+
+    <article class="card">
+        <h2>Ionic</h2>
+        <p>
+            Ionic is a hybrid framework based on web technologies. It uses HTML, CSS, and JavaScript inside a WebView container.
+        </p>
+        <ul>
+            <li>Fast development for web developers</li>
+            <li>Best for simple or medium complexity apps</li>
+            <li>Relies on web rendering (not fully native)</li>
+        </ul>
+    </article>
+</section>
+
+<section id="recommendation" class="card highlight">
+    <h2>Manager Recommendation Summary</h2>
+    <p>
+        If your company prioritizes <strong>performance and long-term scalability</strong>, Flutter is often the strongest choice.
+        If your team is already strong in JavaScript and wants faster onboarding, React Native is ideal.
+        If the goal is rapid prototyping or hybrid web-mobile apps, Ionic is the most cost-efficient option.
+    </p>
+</section>
+
+<section id="references" class="card">
+    <h2>References (Accessible Format)</h2>
+    <ul>
+        <li>Flutter Official Documentation (flutter.dev)</li>
+        <li>React Native Official Documentation (reactnative.dev)</li>
+        <li>Ionic Framework Documentation (ionicframework.com)</li>
+        <li>Stack Overflow Developer Survery Insights 2024</li>
+        <li>Google Developer Mobile UI Reports</li>
+    </ul>
+</section>
+</main>
+
+<footer class="footer">
+    <p>Hybrid App Comparison Report - Internal Developer Decision Support</p>
+</footer>
+<script src="app.js"></script>
+</body>
+
+</html>
